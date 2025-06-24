@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Addition {
-    @GetMapping("/add")
-    public Long add(@RequestParam long a, @RequestParam long b) {
-        return a + b;
-    }
+  @GetMapping("/add")
+  public Long add(@RequestParam long a, @RequestParam long b) {
+    return a + b;
+  }
 }
