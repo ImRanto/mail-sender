@@ -1,9 +1,0 @@
-config:
-  target: "https://g6pal72ad3bcnfkkkvuoc4uzby0bmhzu.lambda-url.eu-west-3.on.aws"
-  phases:
-    - duration: 600
-    - arrivalRate: 1000
-scenarios:
-  - flow:
-      - get:
-          url: "/hello?to=rantohandraina123@gmail.com"
