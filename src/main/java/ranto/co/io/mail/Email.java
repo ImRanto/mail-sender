@@ -1,9 +1,9 @@
 package ranto.co.io.mail;
 
-import ranto.co.io.PojaGenerated;
 import jakarta.mail.internet.InternetAddress;
 import java.io.File;
 import java.util.List;
+import ranto.co.io.PojaGenerated;
 
 @PojaGenerated
 public record Email(

@@ -1,11 +1,10 @@
 package ranto.co.io.concurrency;
 
-import static ranto.co.io.concurrency.ThreadRenamer.getRandomSubThreadNamePrefixFrom;
-import static ranto.co.io.concurrency.ThreadRenamer.renameThread;
 import static java.lang.Thread.currentThread;
 import static java.util.concurrent.Executors.newVirtualThreadPerTaskExecutor;
+import static ranto.co.io.concurrency.ThreadRenamer.getRandomSubThreadNamePrefixFrom;
+import static ranto.co.io.concurrency.ThreadRenamer.renameThread;
 
-import ranto.co.io.PojaGenerated;
 import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
@@ -13,6 +12,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Future;
 import lombok.SneakyThrows;
 import org.springframework.stereotype.Component;
+import ranto.co.io.PojaGenerated;
 
 @PojaGenerated
 @Component

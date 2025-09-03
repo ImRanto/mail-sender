@@ -1,12 +1,11 @@
 package ranto.co.io.endpoint;
 
-import static ranto.co.io.concurrency.ThreadRenamer.renameFrontalThread;
-import static ranto.co.io.concurrency.ThreadRenamer.renameThread;
 import static java.lang.System.currentTimeMillis;
 import static java.lang.Thread.currentThread;
 import static java.util.stream.Collectors.joining;
+import static ranto.co.io.concurrency.ThreadRenamer.renameFrontalThread;
+import static ranto.co.io.concurrency.ThreadRenamer.renameThread;
 
-import ranto.co.io.PojaGenerated;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.AllArgsConstructor;
@@ -16,6 +15,7 @@ import org.springframework.lang.Nullable;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import ranto.co.io.PojaGenerated;
 
 @PojaGenerated
 @Configuration

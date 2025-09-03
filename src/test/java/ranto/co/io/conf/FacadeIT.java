@@ -2,12 +2,12 @@ package ranto.co.io.conf;
 
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;
 
-import ranto.co.io.PojaGenerated;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
+import ranto.co.io.PojaGenerated;
 
 @PojaGenerated
 @SpringBootTest(webEnvironment = RANDOM_PORT)

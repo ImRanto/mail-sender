@@ -2,11 +2,11 @@ package ranto.co.io.datastructure;
 
 import static java.lang.Math.min;
 
-import ranto.co.io.PojaGenerated;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.BiFunction;
 import org.springframework.stereotype.Component;
+import ranto.co.io.PojaGenerated;
 
 @PojaGenerated
 @Component

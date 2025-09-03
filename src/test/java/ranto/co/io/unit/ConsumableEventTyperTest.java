@@ -8,12 +8,6 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
 import com.amazonaws.services.lambda.runtime.events.SQSEvent;
-import ranto.co.io.PojaGenerated;
-import ranto.co.io.conf.FacadeIT;
-import ranto.co.io.endpoint.event.consumer.model.ConsumableEvent;
-import ranto.co.io.endpoint.event.consumer.model.ConsumableEventTyper;
-import ranto.co.io.endpoint.event.consumer.model.TypedEvent;
-import ranto.co.io.endpoint.event.model.UuidCreated;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.List;
@@ -21,6 +15,12 @@ import java.util.Map;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import ranto.co.io.PojaGenerated;
+import ranto.co.io.conf.FacadeIT;
+import ranto.co.io.endpoint.event.consumer.model.ConsumableEvent;
+import ranto.co.io.endpoint.event.consumer.model.ConsumableEventTyper;
+import ranto.co.io.endpoint.event.consumer.model.TypedEvent;
+import ranto.co.io.endpoint.event.model.UuidCreated;
 import software.amazon.awssdk.services.sqs.SqsClient;
 import software.amazon.awssdk.services.sqs.model.DeleteMessageRequest;
 

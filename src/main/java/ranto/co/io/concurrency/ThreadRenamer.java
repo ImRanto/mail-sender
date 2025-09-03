@@ -1,8 +1,8 @@
 package ranto.co.io.concurrency;
 
-import ranto.co.io.PojaGenerated;
 import java.util.UUID;
 import lombok.extern.slf4j.Slf4j;
+import ranto.co.io.PojaGenerated;
 
 @PojaGenerated
 @Slf4j

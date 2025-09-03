@@ -1,10 +1,10 @@
 package ranto.co.io.mail;
 
-import ranto.co.io.PojaGenerated;
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import ranto.co.io.PojaGenerated;
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.ses.SesClient;
 

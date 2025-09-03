@@ -1,7 +1,7 @@
 package ranto.co.io.conf;
 
-import ranto.co.io.PojaGenerated;
 import org.springframework.test.context.DynamicPropertyRegistry;
+import ranto.co.io.PojaGenerated;
 
 @PojaGenerated
 public class EventConf {

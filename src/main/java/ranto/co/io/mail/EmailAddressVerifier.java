@@ -1,10 +1,10 @@
 package ranto.co.io.mail;
 
-import ranto.co.io.PojaGenerated;
 import jakarta.mail.internet.InternetAddress;
 import java.util.function.Consumer;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
+import ranto.co.io.PojaGenerated;
 import software.amazon.awssdk.services.ses.model.VerifyEmailIdentityRequest;
 
 @Component

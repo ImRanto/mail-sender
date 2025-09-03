@@ -2,13 +2,13 @@ package ranto.co.io.file.zip;
 
 import static org.springframework.http.MediaType.parseMediaType;
 
-import ranto.co.io.PojaGenerated;
 import java.io.File;
 import java.util.function.Function;
 import lombok.SneakyThrows;
 import org.apache.tika.Tika;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
+import ranto.co.io.PojaGenerated;
 
 @PojaGenerated
 @Component

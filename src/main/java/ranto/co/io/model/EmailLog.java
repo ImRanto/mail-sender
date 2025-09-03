@@ -1,9 +1,8 @@
 package ranto.co.io.model;
 
 import jakarta.persistence.*;
-import lombok.*;
-
 import java.time.LocalDateTime;
+import lombok.*;
 
 @Entity
 @Table(name = "email_logs")
@@ -13,17 +12,17 @@ import java.time.LocalDateTime;
 @Builder
 public class EmailLog {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  private Long id;
 
-    private String recipient;
-    private String subject;
+  private String recipient;
+  private String subject;
 
-    @Column(columnDefinition = "TEXT")
-    private String body;
+  @Column(columnDefinition = "TEXT")
+  private String body;
 
-    private String status; // EN_ATTENTE, ENVOYE, ECHEC
+  private String status; // EN_ATTENTE, ENVOYE, ECHEC
 
-    private LocalDateTime sentAt;
+  private LocalDateTime sentAt;
 }
