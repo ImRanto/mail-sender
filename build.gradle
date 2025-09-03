@@ -141,6 +141,17 @@ dependencies {
 
     implementation 'org.openapitools:jackson-databind-nullable:0.2.6'
     implementation 'io.swagger:swagger-annotations:1.6.12'
+    implementation 'org.springframework.boot:spring-boot-starter-mail'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    implementation 'com.h2database:h2'
+    implementation 'org.flywaydb:flyway-core'
+    implementation 'org.postgresql:postgresql:42.7.3'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
+    implementation 'io.jsonwebtoken:jjwt-impl:0.11.5'
+    implementation 'io.jsonwebtoken:jjwt-jackson:0.11.5'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.testcontainers:junit-jupiter:1.19.1'
